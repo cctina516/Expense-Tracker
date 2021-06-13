@@ -2,14 +2,15 @@ import React from "react";
 import ExpenseForm from "./ExpenseForm";
 import "./NewExpense.css";
 
-const NewExpense = () => {
-  //communicate from child to parent
+const NewExpense = (props) => {
+  //communicate from child (ExpenseForm) to parent
   const saveExpenseDataHandler = (enteredExpenseData) => {
     const expenseData = {
       ...enteredExpenseData,
       id: Math.random().toString(),
     };
-    console.log(expenseData);
+    //pass to App.js
+    props.onAddExpense(expenseData);
   };
   return (
     <div className="new-expense">
