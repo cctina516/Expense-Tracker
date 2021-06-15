@@ -1,9 +1,10 @@
 # Expense-Tracker
+
 A single page expense tracker application using React.js.
 
-## Set up locally 
+## Set up locally
 
-To run this project, install it locally using npm: 
+To run this project, install it locally using npm:
 
 ```
 $ npm install
@@ -15,10 +16,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `cors-anywhere`
-
-For development purpose, if got no 'Access-Control-Allow-Origin' error, in order to bypass CORS issue, visit [https://cors-anywhere.herokuapp.com/](https://cors-anywhere.herokuapp.com/) or [https://cors-anywhere.herokuapp.com/corsdemo](https://cors-anywhere.herokuapp.com/corsdemo) and click on the "Request temporary access to the demo server" button, to temporarily restore the full functionality of CORS Anywhere.
 
 ### `npm test`
 
